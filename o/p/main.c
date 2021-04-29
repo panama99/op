@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-int Calculation(int a, int b)
+void PrintResult(int res)
 {
-if(a > b)
-return a - b;
-else
-return b - a;
+printf("Result: %d\n", res);
 }
 
 int main()
